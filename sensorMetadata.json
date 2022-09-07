@@ -1,0 +1,248 @@
+{
+  "sensors": [
+    {
+      "name": "POWERTRAIN1.ENGINE_RPM",
+      "unitOfMeasure": "RPM",
+      "sampleKey": "POWERTRAIN1.ENGINE_RPM",
+      "displayName": "POWERTRAIN1.ENGINE_RPM",
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.SOFTWARE_REQUESTED_RPM",
+      "unitOfMeasure": "RPM",
+      "sampleKey": "POWERTRAIN1.SOFTWARE_REQUESTED_RPM",
+      "displayName": "POWERTRAIN1.SOFTWARE_REQUESTED_RPM",
+      "constraints": []
+    },
+    {
+      "name": "ENGINE_TEMPERATURE",
+      "unitOfMeasure": "F",
+      "sampleKey": "ENGINE_TEMPERATURE",
+      "displayName": "ENGINE_TEMPERATURE",
+      "constraints": []
+    },
+    {
+      "name": "ENGINE1.EFL/P1.EOP",
+      "unitOfMeasure": "PSI",
+      "sampleKey": "ENGINE1.EFL/P1.EOP",
+      "displayName": "ENGINE1.EFL/P1.EOP",
+      "constraints": []
+    },
+    {
+      "name": "ENGINE1.EFL/P1.EFDP",
+      "unitOfMeasure": "PSI",
+      "sampleKey": "ENGINE1.EFL/P1.EFDP",
+      "displayName": "ENGINE1.EFL/P1.EFDP",
+      "constraints": []
+    },
+    {
+      "name": "ENGINE1.HOURS.ETHO",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "ENGINE1.HOURS.ETHO",
+      "displayName": "ENGINE1.HOURS.ETHO",
+      "constraints": []
+    },
+    {
+      "name": "ENGINE1_AWL",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "ENGINE1_AWL",
+      "displayName": "ENGINE1_AWL",
+      "constraints": []
+    },
+    {
+      "name": "ENGINE1_RSL",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "ENGINE1_RSL",
+      "displayName": "ENGINE1_RSL",
+      "constraints": []
+    },
+    {
+      "name": "ENGINE1_MIL",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "ENGINE1_MIL",
+      "displayName": "ENGINE1_MIL",
+      "constraints": []
+    },
+    {
+      "name": "ENGINE1_PRO",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "ENGINE1_PRO",
+      "displayName": "ENGINE1_PRO",
+      "constraints": []
+    },
+    {
+      "name": "EKILL",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "EKILL",
+      "displayName": "EKILL",
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.TRANS_CURRENT_GEAR",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "POWERTRAIN1.TRANS_CURRENT_GEAR",
+      "displayName": "POWERTRAIN1.TRANS_CURRENT_GEAR",
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.TRANS_REQUESTED_GEAR",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "POWERTRAIN1.TRANS_REQUESTED_GEAR",
+      "displayName": "POWERTRAIN1.TRANS_REQUESTED_GEAR",
+      "constraints": []
+    },
+    {
+      "name": "TRANS_LUBE_PRESS_SENSOR",
+      "unitOfMeasure": "PSI",
+      "ipcId": "PRES_TRANSLUBE_01_CONFIG",
+      "sampleKey": "TRANS_LUBE_PRESS_SENSOR",
+      "displayName": "TRANS_LUBE_PRESS_SENSOR",
+      "source": "PRES_TRANSLUBE_01",
+      "constraints": []
+    },
+    {
+      "name": "TRANS_LUBE_TEMP_SENSOR",
+      "unitOfMeasure": "F",
+      "sampleKey": "TRANS_LUBE_TEMP_SENSOR",
+      "displayName": "TRANS_LUBE_TEMP_SENSOR",
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.IN_INSTANT_NEUTRAL",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "POWERTRAIN1.IN_INSTANT_NEUTRAL",
+      "displayName": "POWERTRAIN1.IN_INSTANT_NEUTRAL",
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.SOFTWARE_INSTANT_NEUTRAL",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "POWERTRAIN1.SOFTWARE_INSTANT_NEUTRAL",
+      "displayName": "POWERTRAIN1.SOFTWARE_INSTANT_NEUTRAL",
+      "constraints": []
+    },
+    {
+      "name": "TRANS1.ETC1.TTCLE",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "TRANS1.ETC1.TTCLE",
+      "displayName": "TRANS1.ETC1.TTCLE",
+      "constraints": []
+    },
+    {
+      "name": "DISCHARGE_PRESS_SENSOR",
+      "unitOfMeasure": "PSI",
+      "ipcId": "PRES_DISCHARGE_01_CONFIG",
+      "sampleKey": "DISCHARGE_PRESS_SENSOR",
+      "displayName": "DISCHARGE_PRESS_SENSOR",
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.PRESSURE_TRIP_SET_POINT",
+      "unitOfMeasure": "PSI",
+      "sampleKey": "POWERTRAIN1.PRESSURE_TRIP_SET_POINT",
+      "displayName": "POWERTRAIN1.PRESSURE_TRIP_SET_POINT",
+      "constraints": []
+    },
+    {
+      "name": "SUCTION_PRESSURE_SENSOR",
+      "unitOfMeasure": "PSI",
+      "ipcId": "PRES_SUCTION_01_CONFIG",
+      "sampleKey": "SUCTION_PRESSURE_SENSOR",
+      "displayName": "SUCTION_PRESSURE_SENSOR",
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.LUBE_SYSTEM_ACTIVE",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "POWERTRAIN1.LUBE_SYSTEM_ACTIVE",
+      "displayName": "POWERTRAIN1.LUBE_SYSTEM_ACTIVE",
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.IN_REMOTE_CONTROL_MODE",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "POWERTRAIN1.IN_REMOTE_CONTROL_MODE",
+      "displayName": "POWERTRAIN1.IN_REMOTE_CONTROL_MODE",
+      "constraints": []
+    },
+    {
+      "name": "ECM_ENABLE",
+      "unitOfMeasure": "BOOL",
+      "sampleKey": "ECM_ENABLE",
+      "displayName": "ECM_ENABLE",
+      "constraints": []
+    },
+    {
+      "name": "DIRTY_POWER",
+      "unitOfMeasure": "VOLTS",
+      "sampleKey": "DIRTY_POWER",
+      "displayName": "DIRTY_POWER",
+      "constraints": [
+        "BatteryVoltage"
+      ]
+    },
+    {
+      "name": "ENGINE1.IC1.EIM1P",
+      "unitOfMeasure": "PSI",
+      "sampleKey": "ENGINE1.IC1.EIM1P",
+      "displayName": "ENGINE1.IC1.EIM1P",
+      "constraints": []
+    },
+    {
+      "name": "TRANS_OIL_DIFF_PRESS",
+      "unitOfMeasure": "PSI",
+      "sampleKey": "TRANS_OIL_DIFF_PRESS",
+      "displayName": "TRANS_OIL_DIFF_PRESS",
+      "constraints": []
+    },
+    {
+      "name": "TRANS1.TRF2.TTCOOT",
+      "unitOfMeasure": "F",
+      "sampleKey": "TRANS1.TRF2.TTCOOT",
+      "displayName": "TRANS1.TRF2.TTCOOT",
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.PUMP_RPM",
+      "unitOfMeasure": "RPM",
+      "sampleKey": "POWERTRAIN1.PUMP_RPM",
+      "displayName": "POWERTRAIN1.PUMP_RPM",
+      "constraints": []
+    },
+    {
+      "name": "PUMP_LUBE_PRESS_SENSOR",
+      "unitOfMeasure": "PSI",
+      "sampleKey": "PUMP_LUBE_PRESS_SENSOR",
+      "displayName": "PUMP_LUBE_PRESS_SENSOR",
+      "constraints": []
+    },
+    {
+      "name": "PUMP_LUBE_TEMP_SENSOR",
+      "unitOfMeasure": "F",
+      "sampleKey": "PUMP_LUBE_TEMP_SENSOR",
+      "displayName": "PUMP_LUBE_TEMP_SENSOR",
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.PUMP_FLOW_RATE",
+      "unitOfMeasure": "BPM",
+      "sampleKey": "POWERTRAIN1.PUMP_FLOW_RATE",
+      "displayName": "POWERTRAIN1.PUMP_FLOW_RATE",
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.PUMP_HHP",
+      "unitOfMeasure": "RAW",
+      "sampleKey": "POWERTRAIN1.PUMP_HHP",
+      "displayName": "POWERTRAIN1.PUMP_HHP",
+      "constraints": []
+    },
+    {
+      "name": "POWERTRAIN1.PUMP_FLOW_TOTAL",
+      "unitOfMeasure": "BBL",
+      "sampleKey": "POWERTRAIN1.PUMP_FLOW_TOTAL",
+      "displayName": "POWERTRAIN1.PUMP_FLOW_TOTAL",
+      "constraints": []
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+Q1: 
+Test Plan
+Objective
+    * Assure that truck's configuration against the cloud's sensor data is accurate.
+Scope
+    * The test will focus on the data. It will not cover on how the data will be retrieved. 
+Testing Strategy
+    * Since the data will not be retrieved there is no need to have integration tests. Unit tesing should be suffecient.
+    * Testing should be able to support large amount of data. i.e. use `fs.readFile` instead of `fs.readFileSync`.
+Test Cases
+Config File = sensorMetadata.json;
+Cloud File: All Cloud Sensors.json
+    1. Verify that sensor name on config file matches the sensor alias on the cloud file 
+        a. Verify that sensors on config file exist on the clould file
+    2. Verify that name, displayName, sampleKey are the same on the config file (dependents on actual requirements)
+    3. Verify the sensor units of measurement on config file matches uom on cloud file
+    4. Verify  sensors on config file are active on the cloud file
+    5. Verify that duplicate entries dont exist on the config file
+    6. Verify that the config file and clould file does not have missing fields (depends on actual requirments)
+    7. Verify that each unique sensor on config file has a unique sensor id on the cloud file.
+Risks & Assumption
+    * Data retrievable may be out of date. Direct retrievable will result to more up to date data.
+
+Q1: Results:
+The following sensors are missing from the cloud file:
+    ['ENGINE1_AWL', 'ENGINE1_RSL', 'ENGINE1_MIL', 'ENGINE1_PRO', 'TRANS_OIL_DIFF_PRESS']
+
+
+Q2: Result:
+The following sensors have inaccurate unit of measurement from the cloud file:
+    ['ENGINE1.HOURS.ETHO', 'DIRTY_POWER', 'POWERTRAIN1.PUMP_HHP']
+
+Q3: Result:
+    There are no duplicate sensors on the meta file.
+
+Issues: 
+    * Found sensors not existent on the cloud file and sensors with inaccurate unit of measurement.
+    * Carrying an assumption that on mapping of fields: uom => unitsOfMeasurement, alias => name, name === displayName === sampleKey, sensors need to be active
+    * The value of grouping, namespace, or constraints is not defined. Would a sensor on any of the two be considered invalid if thos fields are diffrent?
+    * Similarly field ipcId is also not defined.
+    * Why does the metaData does not have the sensorId verification by name can be risky? Name not matching becuase of case.
